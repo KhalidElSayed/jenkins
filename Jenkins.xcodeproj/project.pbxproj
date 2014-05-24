@@ -318,6 +318,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Martin Stolz (3864YA8KQM)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Martin Stolz (3864YA8KQM)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -356,6 +357,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Martin Stolz (3864YA8KQM)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Martin Stolz (3864YA8KQM)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -381,6 +383,7 @@
 				GCC_PREFIX_HEADER = "Jenkins/Jenkins-Prefix.pch";
 				INFOPLIST_FILE = "Jenkins/Jenkins-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B72A96AA-B086-40F6-8C80-ED6A514652C1";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -394,6 +397,7 @@
 				GCC_PREFIX_HEADER = "Jenkins/Jenkins-Prefix.pch";
 				INFOPLIST_FILE = "Jenkins/Jenkins-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B72A96AA-B086-40F6-8C80-ED6A514652C1";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
